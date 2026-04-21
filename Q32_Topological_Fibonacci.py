@@ -88,7 +88,7 @@ except ImportError:
 # =========================
 # Konfiguracija
 # =========================
-CSV_PATH = Path("/Users/4c/Desktop/GHQ/data/loto7hh_4600_k31.csv")
+CSV_PATH = Path("/data/loto7hh_4600_k31.csv")
 N_NUMBERS = 7
 N_MAX = 39
 
@@ -363,7 +363,7 @@ BEST hparam: D_BRAID= 4 | braid_scale: 1 | cos(bias, freq_csv): 0.783003
   D=3  cos=0.701369  NEXT=(3, 5, 7, 9, 13, 15, 25)
   D=4  cos=0.783003  NEXT=(3, 7, 15, 19, 20, 22, 25)
 --- glavna predikcija (Fibonacci anyon braid-word) ---
-predikcija NEXT: (3, 7, 15, 19, 20, 22, 25)
+predikcija NEXT: (3, 7, x, y, z, 22, 25)
 """
 
 
